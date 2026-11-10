@@ -1,0 +1,406 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-09-24T16:39:58.984520+00:00",
+  "results_directory": "/home/fangming/RMProj/experiments/results/main",
+  "validator_sha256": "c9a48a4815ae0959f750f0eb50fec712e601fc2a6819c4381528d9a5a2f38550",
+  "absolute_tolerance": 1e-06,
+  "counts": {
+    "scenarios": 100,
+    "episodes": 100,
+    "controllers": 600,
+    "trace_rows": 23730,
+    "profile_rows": 4000,
+    "ledger_events": 11146,
+    "ledger_chains": 500,
+    "ac_rows": 3562,
+    "ac_checked_grid_connected": 3114,
+    "ac_not_checked_islanded": 448,
+    "ac_unsuccessful_solves": 0,
+    "ac_passed_checked": 3114,
+    "ac_voltage_violations": 0,
+    "ac_loading_violations": 0,
+    "ac_import_cap_violations": 0
+  },
+  "checks_passed": 67,
+  "checks_total": 67,
+  "checks": [
+    {
+      "name": "run_finished",
+      "passed": true,
+      "recorded_status": "complete"
+    },
+    {
+      "name": "scenario_count_and_ids",
+      "passed": true
+    },
+    {
+      "name": "synthetic_data_declared",
+      "passed": true
+    },
+    {
+      "name": "controllers_unique_keys",
+      "passed": true
+    },
+    {
+      "name": "controllers_scenario_ids",
+      "passed": true
+    },
+    {
+      "name": "traces_unique_keys",
+      "passed": true
+    },
+    {
+      "name": "traces_scenario_ids",
+      "passed": true
+    },
+    {
+      "name": "profiles_unique_keys",
+      "passed": true
+    },
+    {
+      "name": "profiles_scenario_ids",
+      "passed": true
+    },
+    {
+      "name": "exact_six_controllers_per_scenario",
+      "passed": true
+    },
+    {
+      "name": "expected_total_trace_count",
+      "passed": true
+    },
+    {
+      "name": "expected_total_profile_count",
+      "passed": true
+    },
+    {
+      "name": "scenario_configuration_matches_rows",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "trajectory_times_initial_states_and_continuity",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "controller_summaries_recomputed_from_traces",
+      "passed": true,
+      "compared": 6000,
+      "failed": 0,
+      "max_absolute_error": 3.552713678800501e-15
+    },
+    {
+      "name": "controller_success_flags_recomputed",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "episode_history_and_reference_accounting",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "finite_physical_trace_values",
+      "passed": true
+    },
+    {
+      "name": "hard_energy_bounds",
+      "passed": true
+    },
+    {
+      "name": "hard_power_and_service_bounds",
+      "passed": true
+    },
+    {
+      "name": "no_simultaneous_charging_and_discharging",
+      "passed": true
+    },
+    {
+      "name": "sampling_interval",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "battery_energy_balance",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 5.329070518200751e-15
+    },
+    {
+      "name": "power_balance",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "critical_service_balance",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 1.3322676295501878e-15
+    },
+    {
+      "name": "grid_purchase_cost",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "actuator_clipping_accounting",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 2.3592239273284576e-16
+    },
+    {
+      "name": "shared_exogenous_load_kw",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_pv_available_kw",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_true_price",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_grid_limit_kw",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_physical_grid_limit_kw",
+      "passed": true,
+      "compared": 23730,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "attribution_mpc_same_actions_and_outcomes_as_state_mpc",
+      "passed": true,
+      "unequal_columns": []
+    },
+    {
+      "name": "reset_measured_same_actions_and_outcomes_as_state_mpc",
+      "passed": true,
+      "unequal_columns": []
+    },
+    {
+      "name": "paired_soc_deficit",
+      "passed": true,
+      "compared": 100,
+      "failed": 0,
+      "max_absolute_error": 3.774758283725532e-15
+    },
+    {
+      "name": "realized_cost_difference",
+      "passed": true,
+      "compared": 100,
+      "failed": 0,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "name": "episode_actual_future_cost",
+      "passed": true,
+      "compared": 100,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "realized_pair_success_flag",
+      "passed": true
+    },
+    {
+      "name": "estimated_delta_defined_iff_both_strictly_feasible",
+      "passed": true
+    },
+    {
+      "name": "branch_optima_defined_iff_strictly_feasible",
+      "passed": true
+    },
+    {
+      "name": "estimated_paired_cost_difference",
+      "passed": true,
+      "compared": 87,
+      "failed": 0,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "name": "feasibility_classes",
+      "passed": true
+    },
+    {
+      "name": "no_attack_same_detection_state",
+      "passed": true,
+      "compared": 25,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "no_attack_zero_realized_cost_difference",
+      "passed": true,
+      "compared": 25,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "no_attack_zero_defined_estimated_difference",
+      "passed": true,
+      "compared": 25,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ledger_complete_unique_trace_coverage",
+      "passed": true,
+      "expected_events": 11146,
+      "actual_events": 11146,
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "name": "ledger_hashes_chains_forecasts_and_effect_correspondence",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "max_trace_numeric_error": 1.7763568394002505e-15,
+      "scope": "Internal consistency only; an unanchored hash chain is not proof against complete rewriting."
+    },
+    {
+      "name": "requested_ac_results_present",
+      "passed": true
+    },
+    {
+      "name": "ac_selection_count_and_keys",
+      "passed": true
+    },
+    {
+      "name": "ac_uses_executed_charge_kw",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_uses_executed_discharge_kw",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_uses_executed_load_served_kw",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_uses_executed_pv_used_kw",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_uses_executed_grid_import_kw",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_uses_physical_source_cap",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_charge_storage_sign_mapping",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_discharge_storage_sign_mapping",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_status_and_island_scope",
+      "passed": true
+    },
+    {
+      "name": "ac_checked_rows_converged",
+      "passed": true
+    },
+    {
+      "name": "ac_checked_values_finite",
+      "passed": true
+    },
+    {
+      "name": "ac_executed_lossless_balance",
+      "passed": true,
+      "compared": 3562,
+      "failed": 0,
+      "max_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "ac_loss_accounting",
+      "passed": true,
+      "compared": 3114,
+      "failed": 0,
+      "max_absolute_error": 1.7763568393873258e-15
+    },
+    {
+      "name": "ac_solver_power_balance_within_tolerance",
+      "passed": true,
+      "tolerance_kw": 0.0001,
+      "max_absolute_error_kw": 1.5996891877811947e-06
+    },
+    {
+      "name": "ac_import_excess_accounting",
+      "passed": true,
+      "compared": 3114,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "ac_violations_and_pass_flags_recomputed",
+      "passed": true
+    },
+    {
+      "name": "ac_failed_solves_not_counted_as_passes",
+      "passed": true
+    },
+    {
+      "name": "recorded_code_hashes_match_current_files",
+      "passed": true,
+      "changed_or_missing": [],
+      "note": "Changed postprocessing also requires a new provenance record."
+    }
+  ],
+  "scope": "Saved-output consistency, physical constraints, paired accounting, hash-chain integrity and AC reporting; no new optimization runs or assumption validation."
+}

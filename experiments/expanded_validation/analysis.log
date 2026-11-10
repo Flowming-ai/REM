@@ -1,0 +1,129 @@
+{
+  "cohort": {
+    "all_new_attacked": 500,
+    "paired_feasible": 397,
+    "eligible": 329,
+    "not_paired_feasible": 103,
+    "paired_feasible_but_failed": 68,
+    "other_exclusions": 0,
+    "eligible_noiseless": 135,
+    "eligible_noisy": 194,
+    "feasibility_counts": {
+      "both_feasible": 397,
+      "actual_only_infeasible": 103
+    }
+  },
+  "metrics": [
+    {
+      "group": "all_eligible",
+      "predictor": "counterfactual_cost",
+      "label": "Paired recovery cost",
+      "n_test": 329,
+      "mae": 0.013863249316397302,
+      "mae_ci95_low": 0.010351652254310466,
+      "mae_ci95_high": 0.017756332131449656,
+      "rmse": 0.03713463163156601,
+      "rmse_ci95_low": 0.028187670239421352,
+      "rmse_ci95_high": 0.04542547982380764,
+      "median_absolute_error": 5.093574460435235e-06,
+      "p90_absolute_error": 0.04055435284800221,
+      "p95_absolute_error": 0.0817263605981385,
+      "max_absolute_error": 0.23061438296411163,
+      "mean_signed_error": 0.006332462102371876,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    },
+    {
+      "group": "all_eligible",
+      "predictor": "soc_ols",
+      "label": "Energy-deficit regression",
+      "n_test": 329,
+      "mae": 0.67087141032616,
+      "mae_ci95_low": 0.6201441130315901,
+      "mae_ci95_high": 0.7225408980548085,
+      "rmse": 0.8216965870469302,
+      "rmse_ci95_low": 0.7661859240920217,
+      "rmse_ci95_high": 0.8766695979314008,
+      "median_absolute_error": 0.5514085018704651,
+      "p90_absolute_error": 1.480170234653548,
+      "p95_absolute_error": 1.5535655726909103,
+      "max_absolute_error": 2.112582972617351,
+      "mean_signed_error": -0.05824408633097767,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    },
+    {
+      "group": "all_eligible",
+      "predictor": "current_price",
+      "label": "Current-price estimate",
+      "n_test": 329,
+      "mae": 0.2572814466623336,
+      "mae_ci95_low": 0.2133395635947873,
+      "mae_ci95_high": 0.30545591624256313,
+      "rmse": 0.49843778306796094,
+      "rmse_ci95_low": 0.4146594441673391,
+      "rmse_ci95_high": 0.5801735661974574,
+      "median_absolute_error": 0.06885298831109943,
+      "p90_absolute_error": 0.7619111431572584,
+      "p95_absolute_error": 1.0711943434270108,
+      "max_absolute_error": 2.3295981141279283,
+      "mean_signed_error": -0.18687270861246308,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    },
+    {
+      "group": "all_eligible",
+      "predictor": "forecast_price",
+      "label": "Mean-price estimate",
+      "n_test": 329,
+      "mae": 0.5275905776034194,
+      "mae_ci95_low": 0.49221569895517964,
+      "mae_ci95_high": 0.5650577006438235,
+      "rmse": 0.6269567420720609,
+      "rmse_ci95_low": 0.5808676652594967,
+      "rmse_ci95_high": 0.6753178134797738,
+      "median_absolute_error": 0.4555332425304399,
+      "p90_absolute_error": 0.9387885674599056,
+      "p95_absolute_error": 1.120298860739846,
+      "max_absolute_error": 1.949658671147077,
+      "mean_signed_error": 0.006818999078846589,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    }
+  ],
+  "paired": [
+    {
+      "group": "all_eligible",
+      "baseline": "soc_ols",
+      "reference": "counterfactual_cost",
+      "n_test": 329,
+      "mae_improvement_baseline_minus_reference": 0.6570081610097627,
+      "ci95_low": 0.6068683267131033,
+      "ci95_high": 0.7079748833163602,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    },
+    {
+      "group": "all_eligible",
+      "baseline": "current_price",
+      "reference": "counterfactual_cost",
+      "n_test": 329,
+      "mae_improvement_baseline_minus_reference": 0.2434181973459363,
+      "ci95_low": 0.20034462427048544,
+      "ci95_high": 0.29065142667689,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    },
+    {
+      "group": "all_eligible",
+      "baseline": "forecast_price",
+      "reference": "counterfactual_cost",
+      "n_test": 329,
+      "mae_improvement_baseline_minus_reference": 0.5137273282870222,
+      "ci95_low": 0.4782629342175745,
+      "ci95_high": 0.5510149111805938,
+      "bootstrap_seed": 20260927,
+      "bootstrap_draws": 20000
+    }
+  ]
+}

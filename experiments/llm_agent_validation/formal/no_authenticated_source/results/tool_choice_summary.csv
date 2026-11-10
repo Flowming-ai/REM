@@ -1,0 +1,3 @@
+condition,decision_cycles,executed_received,executed_verified,model_hold,invalid_call_hold,tool_budget_hold,generation_calls,mean_inference_seconds_per_cycle
+clean,48,48,0,0,0,0,96,1.4769167475208935
+poisoned,48,48,0,0,0,0,96,1.6996350798957185

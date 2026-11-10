@@ -1,0 +1,50 @@
+{
+  "n_pairs": 12,
+  "n_llm_cycles": 96,
+  "n_generation_calls": 108,
+  "n_physically_divergent_pairs": 5,
+  "n_initially_paired_feasible": 12,
+  "n_successful_paired_predictions": 8,
+  "energy_deficit_mean_kwh": -0.28437749305296006,
+  "energy_deficit_range_kwh": [
+    -0.9628288234128508,
+    0.0
+  ],
+  "estimated_cost_mean_usd": -0.05433883399455366,
+  "executed_cost_mean_usd": -0.05433883399455358,
+  "eligible_prediction_mae_usd": 2.237793284010081e-16,
+  "eligible_prediction_rmse_usd": 3.8959896527329105e-16,
+  "tool_choices": [
+    {
+      "condition": "clean",
+      "decision_cycles": 48,
+      "executed_received": 0,
+      "executed_verified": 0,
+      "model_hold": 0,
+      "invalid_call_hold": 48,
+      "tool_budget_hold": 0,
+      "generation_calls": 48,
+      "mean_inference_seconds_per_cycle": 0.5306451293126884
+    },
+    {
+      "condition": "poisoned",
+      "decision_cycles": 48,
+      "executed_received": 0,
+      "executed_verified": 6,
+      "model_hold": 0,
+      "invalid_call_hold": 42,
+      "tool_budget_hold": 0,
+      "generation_calls": 60,
+      "mean_inference_seconds_per_cycle": 0.7705612575841769
+    }
+  ],
+  "raw_tool_calls": {
+    "inspect_prices": 48,
+    "invalid": 42,
+    "verify_tariff": 6,
+    "plan_dispatch": 6,
+    "execute_plan": 6
+  },
+  "interpretation": "All fixed pairs retained. If no physical divergence occurs, zero attribution error is algebraically trivial and is not predictive validation.",
+  "figure_case_selection": "seed 20000, fixed first case; no outcome-based selection"
+}

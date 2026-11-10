@@ -1,0 +1,5 @@
+authenticated_source,bulletin,n_profile_seeds,decision_cycles,real_llm_generations,executed_received,executed_verified,model_hold,invalid_call_hold,mean_detection_energy_kwh,min_detection_energy_kwh,max_detection_energy_kwh,recovery_successes,mean_future_unserved_kwh,mean_future_purchase_cost_usd
+available,clean,12,48,96,48,0,0,0,12.0,12.0,12.0,9,4.625929269271485e-18,2.5009533532761923
+available,poisoned,12,48,131,13,35,0,0,11.811488511746518,10.3962465995465,12.0,9,4.625929269271485e-18,2.537008246300667
+unavailable,clean,12,48,96,48,0,0,0,12.0,12.0,12.0,9,4.625929269271485e-18,2.5009533532761923
+unavailable,poisoned,12,48,96,48,0,0,0,7.586835905341725,7.106090190258612,8.066132102395757,9,4.625929269271485e-18,3.8068979598281225

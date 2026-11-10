@@ -1,0 +1,95 @@
+{
+  "purpose": "Repeat the study on measured load, measured generation and a settled dynamic tariff, changing only the inputs.",
+  "data": {
+    "load_series": [
+      "DE_KN_residential1_grid_import",
+      "DE_KN_residential2_grid_import",
+      "DE_KN_residential3_grid_import",
+      "DE_KN_residential4_grid_import",
+      "DE_KN_residential5_grid_import",
+      "DE_KN_residential6_grid_import"
+    ],
+    "pv_series": [
+      "DE_KN_residential1_pv",
+      "DE_KN_residential3_pv",
+      "DE_KN_residential4_pv",
+      "DE_KN_residential6_pv"
+    ],
+    "segment_start_utc": "2016-02-28 17:30:00+00:00",
+    "segment_end_utc": "2017-02-01 14:30:00+00:00",
+    "segment_steps": 32533,
+    "scenarios": 400,
+    "horizon": 40,
+    "rescaling": "none; measured power is used as recorded",
+    "load_mean_kw": 2.4488205821780964,
+    "load_p99_kw": 7.034719999999726,
+    "load_max_kw": 12.81199999999808,
+    "load_peak_to_mean": 5.231906368821224,
+    "pv_mean_kw": 3.964810500107583,
+    "pv_max_kw": 28.828000000004522,
+    "plant": {
+      "p99_load_kw": 7.034719999999726,
+      "max_charge_kw": 6.704088159999738,
+      "max_discharge_kw": 6.704088159999738,
+      "capacity_kwh": 20.119299199999215,
+      "min_energy_kwh": 2.0119299199999214,
+      "target_energy_kwh": 15.089474399999412,
+      "grid_caps_kw": [
+        9.22251791999964,
+        11.733912959999541,
+        15.089474399999412
+      ],
+      "loss_allowance_kw": 1.6765300285986
+    },
+    "price_source": "Octopus Agile AGILE-24-10-01 region C, value_inc_vat, p/kWh to GBP/kWh",
+    "price_first_valid_from": "2026-04-05T10:00:00Z",
+    "price_last_valid_from": "2026-10-09T21:30:00Z",
+    "price_min_gbp": -0.11277,
+    "price_max_gbp": 0.8673000000000001,
+    "price_mean_gbp": 0.21503193222222222,
+    "negative_price_halfhours": 407,
+    "forecast": "climatological nominal by time of day plus current residual decayed by 0.65 per step",
+    "data_type": "measured",
+    "opsd_sha256": "eca7dee5ac6e53373cd0209bc05ba3383cd860bfa5d5e995f74fa78db8857c58",
+    "prices_sha256": "510e942c548ffc8776d2c77e765ac8d94ae80472359c80399e52dec945c6bc31"
+  },
+  "scenarios": 400,
+  "factor_seed": 20261009,
+  "attack_strengths": [
+    0.55,
+    0.8,
+    0.95
+  ],
+  "delays": [
+    2,
+    4,
+    8
+  ],
+  "grid_caps_kw": [
+    5.5,
+    7.0,
+    9.0
+  ],
+  "deadlines": [
+    4,
+    8,
+    12
+  ],
+  "unchanged": [
+    "plant model equations",
+    "attack model",
+    "forecast construction",
+    "attribution definition",
+    "all six recovery methods",
+    "rescue hierarchy",
+    "success criterion",
+    "efficiencies",
+    "interval length",
+    "outage window"
+  ],
+  "plant_sizing": "battery power, capacity, minimum energy, recovery target, grid caps and loss allowance are set to the same multiples of the 99th-percentile load that the synthetic study uses of its own, because measured community demand has a peak-to-mean ratio of 5.2 against 1.3 for the synthetic generator",
+  "currency": "GBP; measured prices are not rescaled, so costs are not comparable in level with the synthetic cohorts",
+  "price_treatment": "the plant model admits only nonnegative purchase prices; 4.23 per cent of intervals in the settled tariff are negative and are floored at zero, which is conservative for recovery cost. 355 of 400 scenarios contain no floored interval and are reported separately.",
+  "note_on_freezing": "an earlier attempt aborted on the first scenario because the unmodified plant model rejected negative prices; no outcome was produced or inspected, so this protocol adds the declared price treatment and is frozen before any result.",
+  "analysis": "descriptive; no model is fitted and no scenario is excluded after execution"
+}

@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "started_utc": "2026-09-24T18:56:19.437305+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "episodes": 500,
+  "methods": [
+    "attribution_mpc",
+    "state_mpc",
+    "software_replay",
+    "reset_measured",
+    "max_charge",
+    "safe_stop"
+  ],
+  "stages": {
+    "main": true,
+    "sensitivity_and_prevention": false,
+    "ac": false,
+    "analysis": false
+  },
+  "protocol_sha256": "18fdb3dbefbb2c09aeda31c5808fa3e44fffcc84f2fa7ede70fd4704f4854cb4",
+  "code_sha256": {
+    "src/recovery/__init__.py": "8af43a9404ca15712018210db4ccf63e670f6e7126d9443d3f9c685399d50aef",
+    "src/recovery/analysis.py": "83d87a78c91e45f30a4a08631ac2b9e23df78901bc2db45cac03c6a5be201d17",
+    "src/recovery/extra_analysis.py": "a542f79e092de2739901d6049ade06b821d3f6ddfacbc290c2e0a29eee9e8d71",
+    "src/recovery/model.py": "9088d8c6d5b3e2dee83b9b3a03de7627706db48c69564f877dd30aaa6bd9f399",
+    "src/recovery/optimization.py": "64748e0c01e5c5d0ad120e2fe8b558c0e2348ce193a61a5aec953bc20123e368",
+    "src/recovery/platform.py": "14abfa5d5b49ed251667796ea996f8d802de151b88b500786cff4664d27335bf",
+    "run_experiments.py": "33ee8e3653e7f0e25a0a54645301a9f437035f9736b322c9e3aed1644e2827cb",
+    "uv.lock": "bade73933c159923a7fe3c39b9c3f8fcf84e09502fcfa9835f52bd318f2b6d94",
+    "pyproject.toml": "450ccfb39bf4189d646742116eb95e909c445a6fb5d676ee5e826d992943e7e9",
+    "expanded_validation/run.py": "a87d3b347ecd7616259e14932b650e5856e0c14d52e55236ae298fcd13846bc5"
+  },
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2",
+    "pandapower": "3.5.5"
+  },
+  "finished_utc": "2026-09-24T18:59:27.643135+00:00",
+  "elapsed_seconds": 188.1954371949978,
+  "original_assets_unchanged": true
+}

@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "independent_profiles": 300,
+  "parts": 30,
+  "protocol_sha256": "6d00bf4749186c7f830c1853ecb059bc6edfe971f7424f71ecf60188685607be",
+  "result_sha256": {
+    "recovery_outcomes.csv": "928a57ad3ca2e57546d1be863311f1967a8f7575c63a9108ef4e318b280aca6f",
+    "profiles.csv": "af463a5fb44ceca42c4ec2f879c09be0066f075668880347abeb77845f599a5a",
+    "paired_episodes.csv": "01ab5d692eb627a0a4663e66fa47e8a854630611eb03aafe9eb4e089343b21d5",
+    "traces.csv": "23dc6f1bdf2b1c495921951601b68111dd40df995528e3f98518f9ec46d15fb1",
+    "agent_steps.csv": "da5091ec6cd0518aef01938f237632feb216df17ba5e056d3ab8ed1a10a5287c"
+  }
+}

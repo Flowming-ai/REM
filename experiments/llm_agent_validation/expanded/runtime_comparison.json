@@ -1,0 +1,16 @@
+{
+  "scope": "Independent four-profile technical comparison; excluded from the 300-case test. Agreement here is not a proof of bitwise backend equivalence.",
+  "same_call_keys": true,
+  "same_calls": true,
+  "same_rendered_prompts": true,
+  "n_calls": 215,
+  "agent_steps_same_non_timing_data": true,
+  "paired_episodes_same_non_timing_data": true,
+  "traces_same_non_timing_data": true,
+  "seconds_full": 96.69600328600063,
+  "seconds_compact": 73.90639586599718,
+  "model_generated_tokens_compact": 599,
+  "serialized_tokens_compact": 4861,
+  "forced_only_calls": 0,
+  "status": "passed"
+}

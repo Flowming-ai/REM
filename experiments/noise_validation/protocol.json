@@ -1,0 +1,23 @@
+{
+  "purpose": "Relax the exact-observation assumption and measure its effect on attribution accuracy, the analytical control equivalence, and controller comparison.",
+  "cohort": "the 500 independent test scenarios, seeds 10000-10499, unchanged",
+  "sigmas_kwh": [
+    0.0,
+    0.06,
+    0.12,
+    0.3,
+    0.6
+  ],
+  "noise_model": "i.i.d. Gaussian on the observed actual battery energy, clipped to physical bounds; applied at the detection-time estimate and at every recovery step",
+  "shared_draws": "one sequence per (scenario, sigma), identical across all six methods",
+  "reference_state": "exact; the simulated counterfactual does not pass through a sensor",
+  "noise_seed_base": 20261008,
+  "reproduction_gate": "sigma=0 must reproduce the saved controller outcomes of the independent test cohort exactly; the run aborts otherwise",
+  "primary_outcomes": [
+    "attribution absolute error vs realised cost difference",
+    "identical-action rate between attribution_mpc and state_mpc",
+    "complete recovery count per method",
+    "mean post-detection unserved critical energy per method"
+  ],
+  "analysis": "descriptive by sigma; no model is fitted and no scenario is excluded after execution"
+}

@@ -1,0 +1,53 @@
+{
+  "load_series": [
+    "DE_KN_residential1_grid_import",
+    "DE_KN_residential2_grid_import",
+    "DE_KN_residential3_grid_import",
+    "DE_KN_residential4_grid_import",
+    "DE_KN_residential5_grid_import",
+    "DE_KN_residential6_grid_import"
+  ],
+  "pv_series": [
+    "DE_KN_residential1_pv",
+    "DE_KN_residential3_pv",
+    "DE_KN_residential4_pv",
+    "DE_KN_residential6_pv"
+  ],
+  "segment_start_utc": "2016-02-28 17:30:00+00:00",
+  "segment_end_utc": "2017-02-01 14:30:00+00:00",
+  "segment_steps": 32533,
+  "scenarios": 400,
+  "horizon": 40,
+  "rescaling": "none; measured power is used as recorded",
+  "load_mean_kw": 2.4488205821780964,
+  "load_p99_kw": 7.034719999999726,
+  "load_max_kw": 12.81199999999808,
+  "load_peak_to_mean": 5.231906368821224,
+  "pv_mean_kw": 3.964810500107583,
+  "pv_max_kw": 28.828000000004522,
+  "plant": {
+    "p99_load_kw": 7.034719999999726,
+    "max_charge_kw": 6.704088159999738,
+    "max_discharge_kw": 6.704088159999738,
+    "capacity_kwh": 20.119299199999215,
+    "min_energy_kwh": 2.0119299199999214,
+    "target_energy_kwh": 15.089474399999412,
+    "grid_caps_kw": [
+      9.22251791999964,
+      11.733912959999541,
+      15.089474399999412
+    ],
+    "loss_allowance_kw": 1.6765300285986
+  },
+  "price_source": "Octopus Agile AGILE-24-10-01 region C, value_inc_vat, p/kWh to GBP/kWh",
+  "price_first_valid_from": "2026-04-05T10:00:00Z",
+  "price_last_valid_from": "2026-10-09T21:30:00Z",
+  "price_min_gbp": -0.11277,
+  "price_max_gbp": 0.8673000000000001,
+  "price_mean_gbp": 0.21503193222222222,
+  "negative_price_halfhours": 407,
+  "forecast": "climatological nominal by time of day plus current residual decayed by 0.65 per step",
+  "data_type": "measured",
+  "opsd_sha256": "eca7dee5ac6e53373cd0209bc05ba3383cd860bfa5d5e995f74fa78db8857c58",
+  "prices_sha256": "510e942c548ffc8776d2c77e765ac8d94ae80472359c80399e52dec945c6bc31"
+}

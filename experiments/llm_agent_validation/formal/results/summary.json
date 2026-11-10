@@ -1,0 +1,50 @@
+{
+  "n_pairs": 12,
+  "n_llm_cycles": 96,
+  "n_generation_calls": 227,
+  "n_physically_divergent_pairs": 5,
+  "n_initially_paired_feasible": 12,
+  "n_successful_paired_predictions": 9,
+  "energy_deficit_mean_kwh": 0.18851148825347996,
+  "energy_deficit_range_kwh": [
+    0.0,
+    1.603753400453499
+  ],
+  "estimated_cost_mean_usd": 0.03605621217247861,
+  "executed_cost_mean_usd": 0.03605489302447493,
+  "eligible_prediction_mae_usd": 1.7588640049669608e-06,
+  "eligible_prediction_rmse_usd": 5.27659201460251e-06,
+  "tool_choices": [
+    {
+      "condition": "clean",
+      "decision_cycles": 48,
+      "executed_received": 48,
+      "executed_verified": 0,
+      "model_hold": 0,
+      "invalid_call_hold": 0,
+      "tool_budget_hold": 0,
+      "generation_calls": 96,
+      "mean_inference_seconds_per_cycle": 1.5196035056454396
+    },
+    {
+      "condition": "poisoned",
+      "decision_cycles": 48,
+      "executed_received": 13,
+      "executed_verified": 35,
+      "model_hold": 0,
+      "invalid_call_hold": 0,
+      "tool_budget_hold": 0,
+      "generation_calls": 131,
+      "mean_inference_seconds_per_cycle": 2.459080928437743
+    }
+  ],
+  "raw_tool_calls": {
+    "plan_dispatch": 96,
+    "execute_plan": 96,
+    "verify_tariff": 35
+  },
+  "decoding": "grammar-constrained greedy; received/verified/hold choices come from model output",
+  "design_origin": "Follow-up after pilot interface failure, on twelve new fixed profile seeds; not a reclassification or replacement of the pilot.",
+  "interpretation": "All fixed pairs retained. If no physical divergence occurs, zero attribution error is algebraically trivial and is not predictive validation.",
+  "figure_case_selection": "seed 24000, fixed first case; no outcome-based selection"
+}

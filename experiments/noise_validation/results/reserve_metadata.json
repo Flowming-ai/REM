@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-08T17:39:59.670286+00:00",
+  "elapsed_seconds": 359.11852095701033,
+  "protocol_sha256": "2d1f9b4063bb9f780476c11b3881c346d719b89d28e9b3aca76145162493836f",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3"
+  }
+}

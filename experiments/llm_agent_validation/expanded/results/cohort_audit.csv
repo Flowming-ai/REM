@@ -1,0 +1,5 @@
+arm,all_scenarios_n,both_initially_infeasible_n,actual_only_infeasible_n,reference_only_infeasible_n,initially_paired_feasible_n,initially_feasible_but_rolling_failure_n,rolling_both_success_but_initially_infeasible_n,finite_successful_prediction_n,zero_state_difference_prediction_n,nonzero_state_difference_prediction_n
+llm_available,300,0,0,0,300,127,0,173,66,107
+llm_unavailable,300,0,28,0,272,114,3,158,0,158
+always_received,300,0,28,0,272,114,3,158,0,158
+always_verified,300,0,0,0,300,124,0,176,176,0

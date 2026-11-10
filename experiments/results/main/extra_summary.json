@@ -1,0 +1,200 @@
+{
+  "controlled_states": {
+    "n_feasibility_cells": 120,
+    "feasibility_counts": {
+      "both_feasible": 67,
+      "actual_only_infeasible": 53
+    },
+    "finite_extra_cost_min_usd": 2.0466611105237247,
+    "finite_extra_cost_max_usd": 2.7400393251961264,
+    "n_equal_deficit_cells": 36,
+    "equal_deficit_finite_min_usd": 1.1354923649698885,
+    "equal_deficit_finite_max_usd": 5.428360448195047,
+    "earliest_feasible_deadline_hours_by_cap": {
+      "5.5": 3.0,
+      "6.0": 2.5,
+      "6.5": 2.5,
+      "7.0": 2.0,
+      "7.5": 2.0,
+      "8.0": 1.5,
+      "8.5": 1.5,
+      "9.0": 1.5,
+      "9.5": 1.5,
+      "10.0": 1.5
+    }
+  },
+  "attack_sweep": {
+    "n_cases": 18,
+    "max_deficit_kwh": 8.247438368189044,
+    "feasibility_counts": {
+      "both_feasible": 18
+    }
+  },
+  "reference_sensitivity": {
+    "n_cases": 20,
+    "n_perturbations": 100,
+    "max_absolute_cost_change_usd": 0.447760171068019,
+    "n_infeasible_perturbations": 0,
+    "n_clipped_perturbations": 27,
+    "by_requested_fraction_capacity": [
+      {
+        "reference_error_fraction_capacity": -0.05,
+        "n": 20,
+        "n_finite": 20,
+        "mean_change_usd": -0.18668197972850478,
+        "min_change_usd": -0.447760171068019,
+        "max_change_usd": -0.0726837504614896,
+        "mean_effective_error_kwh": -0.5999999999999999
+      },
+      {
+        "reference_error_fraction_capacity": -0.02,
+        "n": 20,
+        "n_finite": 20,
+        "mean_change_usd": -0.07291736629526034,
+        "min_change_usd": -0.1790712000000001,
+        "max_change_usd": -0.0290650704614898,
+        "mean_effective_error_kwh": -0.2400000000000005
+      },
+      {
+        "reference_error_fraction_capacity": 0.0,
+        "n": 20,
+        "n_finite": 20,
+        "mean_change_usd": 0.0,
+        "min_change_usd": 0.0,
+        "max_change_usd": 0.0,
+        "mean_effective_error_kwh": 0.0
+      },
+      {
+        "reference_error_fraction_capacity": 0.02,
+        "n": 20,
+        "n_finite": 20,
+        "mean_change_usd": 0.04387315534511851,
+        "min_change_usd": 0.0,
+        "max_change_usd": 0.1790594765950954,
+        "mean_effective_error_kwh": 0.09801535502287698
+      },
+      {
+        "reference_error_fraction_capacity": 0.05,
+        "n": 20,
+        "n_finite": 20,
+        "mean_change_usd": 0.09324034792714007,
+        "min_change_usd": 0.0,
+        "max_change_usd": 0.4277485360626718,
+        "mean_effective_error_kwh": 0.21825463954307497
+      }
+    ]
+  },
+  "prevention": [
+    {
+      "strength": 0.0,
+      "mechanism": "confirmation_gate",
+      "n": 8,
+      "energy_mean": 12.0,
+      "cost_mean": 4.467360496729679,
+      "unserved_mean": 6.938893903907228e-18,
+      "success_rate": 0.875
+    },
+    {
+      "strength": 0.0,
+      "mechanism": "effect_authorization",
+      "n": 8,
+      "energy_mean": 12.0,
+      "cost_mean": 4.467360496729679,
+      "unserved_mean": 6.938893903907228e-18,
+      "success_rate": 0.875
+    },
+    {
+      "strength": 0.0,
+      "mechanism": "none",
+      "n": 8,
+      "energy_mean": 12.0,
+      "cost_mean": 4.467360496729679,
+      "unserved_mean": 6.938893903907228e-18,
+      "success_rate": 0.875
+    },
+    {
+      "strength": 0.95,
+      "mechanism": "confirmation_gate",
+      "n": 8,
+      "energy_mean": 12.0,
+      "cost_mean": 4.467360496729679,
+      "unserved_mean": 6.938893903907228e-18,
+      "success_rate": 0.875
+    },
+    {
+      "strength": 0.95,
+      "mechanism": "effect_authorization",
+      "n": 8,
+      "energy_mean": 4.15942779307597,
+      "cost_mean": 7.216733673383714,
+      "unserved_mean": 6.938893903907228e-18,
+      "success_rate": 0.875
+    },
+    {
+      "strength": 0.95,
+      "mechanism": "none",
+      "n": 8,
+      "energy_mean": 4.15942779307597,
+      "cost_mean": 7.216733673383714,
+      "unserved_mean": 6.938893903907228e-18,
+      "success_rate": 0.875
+    }
+  ],
+  "ac": {
+    "n_snapshots_selected": 3562,
+    "status_counts": {
+      "checked_grid_connected": 3114,
+      "not_checked_islanded": 448
+    },
+    "n_grid_connected_passed": 3114,
+    "n_grid_connected_checked": 3114,
+    "min_voltage_pu": 0.9702163757442136,
+    "max_voltage_pu": 1.0033233412638995,
+    "max_line_loading_percent": 8.427272012352425,
+    "max_trafo_loading_percent": 3.5539934432507803,
+    "max_import_cap_excess_kw": 0.0,
+    "max_loss_kw": 0.8167030113933968,
+    "max_power_balance_error_abs_kw": 1.5996891877811947e-06,
+    "scope": "state_mpc all cases plus all recorded traces of case_000 and case_001; island snapshots excluded from pass denominator"
+  },
+  "main_additional": {
+    "all_n": 100,
+    "attacked_n": 75,
+    "paired_feasible_attacked_n": 62,
+    "attack_deficit_kwh_mean": 4.2786747875500515,
+    "attack_deficit_kwh_min": 1.8368858801084735,
+    "attack_deficit_kwh_max": 9.290327959176077,
+    "estimated_extra_cost_attacked_feasible_mean_usd": 1.43053846984903,
+    "estimated_extra_cost_attacked_feasible_min_usd": 0.2630607816902472,
+    "estimated_extra_cost_attacked_feasible_max_usd": 5.9398965812432,
+    "actual_min_recovery_hours_attacked_median": 0.75,
+    "actual_min_recovery_hours_attacked_max": 5.25,
+    "n_strict_feasible_but_rollout_failed": 11,
+    "pre_detection_purchase_difference_attacked_mean_usd": -0.7567432705534564,
+    "pre_detection_unserved_actual_total_kwh": 0.0,
+    "representative_case": {
+      "seed": 1070,
+      "e_actual_detect": 4.694576030069634,
+      "e_reference_detect": 12.0,
+      "soc_deficit_kwh": 7.305423969930366,
+      "estimated_extra_cost": 5.791011065004714,
+      "realized_extra_cost": 5.791355143741031,
+      "pre_actual_cost": 0.9235334584512374,
+      "pre_reference_cost": 2.82460310673816,
+      "actual_future_cost": 9.46327198057836,
+      "reference_future_cost": 3.671916836837329
+    },
+    "solver_seconds_mean_per_episode": {
+      "attribution_mpc": 0.08643162669141016,
+      "max_charge": 0.0,
+      "reset_measured": 0.04608042338128139,
+      "safe_stop": 0.0,
+      "software_replay": 0.04274592422982091,
+      "state_mpc": 0.046236179771876725
+    },
+    "solver_kind_counts_in_recorded_traces": {
+      "highs-lp": 17438,
+      "rule": 6292
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "started_at_utc": "2026-09-24T19:48:33.997202+00:00",
+  "protocol_sha256": "6d00bf4749186c7f830c1853ecb059bc6edfe971f7424f71ecf60188685607be",
+  "python_executable": "/home/fangming/RoboLab/.venv/bin/python",
+  "python": "3.11.16",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "packages": {
+    "torch": "2.7.0+cu128",
+    "transformers": "5.17.0",
+    "huggingface-hub": "1.16.1",
+    "numpy": "1.26.0",
+    "scipy": "1.15.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.10.0",
+    "tokenizers": "0.23.2",
+    "safetensors": "0.9.0rc0",
+    "jinja2": "3.1.6"
+  },
+  "source_sha256": {
+    "llm_agent_validation/expanded/run.py": "b585ad108cad0c4df29c3a065811136e613358e490b40279d228f34147768fc6",
+    "llm_agent_validation/formal/run_validation.py": "2eb258d8d23f3e8af5d15aa676828b8ff5487d39d850d5785129fe274836c3da",
+    "llm_agent_validation/formal/no_authenticated_source/run_validation.py": "914756d41b424bddd7dfc8e9b7ca0ccdaa80a6bd2759a440f25fdd9497a60cf3",
+    "src/recovery/__init__.py": "8af43a9404ca15712018210db4ccf63e670f6e7126d9443d3f9c685399d50aef",
+    "src/recovery/analysis.py": "83d87a78c91e45f30a4a08631ac2b9e23df78901bc2db45cac03c6a5be201d17",
+    "src/recovery/extra_analysis.py": "a542f79e092de2739901d6049ade06b821d3f6ddfacbc290c2e0a29eee9e8d71",
+    "src/recovery/model.py": "9088d8c6d5b3e2dee83b9b3a03de7627706db48c69564f877dd30aaa6bd9f399",
+    "src/recovery/optimization.py": "64748e0c01e5c5d0ad120e2fe8b558c0e2348ce193a61a5aec953bc20123e368",
+    "src/recovery/platform.py": "14abfa5d5b49ed251667796ea996f8d802de151b88b500786cff4664d27335bf"
+  },
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "batch_timing_note": "Batch elapsed time is recorded once per batch and repeated on its members; it is not per-call or per-action latency.",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "cuda": "12.8",
+  "model_parameter_count": 3085938688,
+  "finished_at_utc": "2026-09-24T20:38:15.413434+00:00"
+}

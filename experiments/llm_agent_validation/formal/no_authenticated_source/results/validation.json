@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "all_12_preregistered_seeds": true,
+    "all_96_llm_cycles_retained": true,
+    "all_960_state_transitions": true,
+    "transcript_count_matches_calls": true,
+    "generation_budget": true,
+    "physical_balance": true,
+    "energy_hard_bounds": true,
+    "nonexecuted_cycles_hold": true,
+    "all_effect_chains_valid": true,
+    "fresh_context_each_cycle": true,
+    "shared_system_prompt": true,
+    "no_attack_label_in_initial_observation": true,
+    "all_outputs_in_logged_legal_grammar": true,
+    "all_initial_cycles_offer_received_or_hold": true,
+    "native_prompt_sha256": true,
+    "frozen_implementation_hash": true,
+    "model_revision_same_as_pilot": true,
+    "all_executions_follow_real_model_authorization": true,
+    "paired_warmup_identical": true,
+    "source_files_unchanged": true,
+    "script_matches_executed_manifest": true
+  },
+  "passed": 21,
+  "total": 21,
+  "all_passed": true
+}

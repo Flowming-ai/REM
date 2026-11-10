@@ -1,0 +1,14 @@
+{
+  "command": "uv run --project experiments python experiments/supplementary/prediction_cv/analyze.py",
+  "second_run_byte_identical": true,
+  "n_outputs_checked": 7,
+  "sha256": {
+    "cohort_audit.csv": "2d52bd5b8e79aee592809aafde8e315fcb6e656d3a5285428d84ee10931d3c6c",
+    "fold_metrics.csv": "e3bc3e08e0140cb1aa8134c18dfda4e4f7dbfe1d083dd13b36b4df6291498d6b",
+    "oof_metrics.csv": "03b4804bee87c80fa0e5343b7896e0c330b3f5b84518bf015e4dd5787b0eb84b",
+    "oof_predictions.csv": "6d0d88d11d47b002e2420c904c69ad2beb118fb22ecd3ccbbf7c28d87752350a",
+    "original_holdout_metrics_reproduced.csv": "89296bf3313e8c687174772c3aa2c0904831f00a89acbae76d5883cde3f5327a",
+    "paired_mae_improvements.csv": "358fdbd8bef8705768fbfdf590858eee529fe97f531569f03c85096a8c436aaa",
+    "summary.json": "d87f1e10903c1b1bf8638f8a08a727e2fad43677805bea5fc891ff0f35f617bd"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-08T17:31:52.008952+00:00",
+  "elapsed_seconds": 939.2669980910141,
+  "sigmas": [
+    0.0,
+    0.06,
+    0.12,
+    0.3,
+    0.6
+  ],
+  "episodes_per_sigma": 500,
+  "methods": [
+    "attribution_mpc",
+    "state_mpc",
+    "software_replay",
+    "reset_measured",
+    "max_charge",
+    "safe_stop"
+  ],
+  "protocol_sha256": "ddf2f73dc109a1f8393517c71f20dbeb893802d1e03dd4fbada4d8a07b3646bf",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3"
+  },
+  "original_assets_unchanged": true
+}

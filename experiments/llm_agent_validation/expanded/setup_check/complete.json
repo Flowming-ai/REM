@@ -1,0 +1,16 @@
+{
+  "completed_at_utc": "2026-09-24T19:39:52.600340+00:00",
+  "scenario_ids": [
+    "setup_29990",
+    "setup_29991"
+  ],
+  "files_sha256": {
+    "agent_steps.csv": "2c1dcce9cb74722b6efdc76e9715810ea654e6242fd3f92216833cb20bfd03d5",
+    "effect_ledger.jsonl.gz": "7253eb30dffee7f0a67e4bc962e51745d50574483043e718f2e12e35c4a573b8",
+    "model_transcripts.jsonl.gz": "44714c320592e159f6ee7f278c2f5cd1b233252a97d2c39ea44504de4d921e15",
+    "paired_episodes.csv": "20db5f66ebeaab3119e2588cf3a00a2693435ba125011a1f9864ac66c094f627",
+    "profiles.csv": "1f4909e0fd7a97d4116c620d3e32377d9d4d3dd51557032884803279c8c1d3ad",
+    "recovery_outcomes.csv": "836b7f2af023e7fe72f04a7add95cc12c0f96ef5493d7097dda5248901180da9",
+    "traces.csv": "51eac93e06e7b97ec1440e589815fd24f0488e5af33e0ff95668e8e1fc3061d0"
+  }
+}

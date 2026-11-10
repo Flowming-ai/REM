@@ -1,0 +1,16 @@
+{
+  "config": {
+    "line_length_scale": 1.0,
+    "load_power_factor": 0.97,
+    "voltage_min_pu": 0.95,
+    "voltage_max_pu": 1.05,
+    "loading_max_percent": 100.0,
+    "storage_capacity_kwh": 12,
+    "power_tolerance_kw": 1e-05,
+    "grid_voltage_pu": 1.0
+  },
+  "selection": "all state_mpc steps plus all traces for case_000 and case_001",
+  "loss_allowance_kw": 1.0,
+  "source_limit_used": "physical_grid_limit_kw",
+  "scope": "ex-post balanced grid-connected snapshots; outage/island snapshots not validated"
+}

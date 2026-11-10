@@ -1,0 +1,24 @@
+{
+  "all_eight_statistical_csv_unchanged": true,
+  "before_plotting_adjustment_sha256": {
+    "agent_outcomes.csv": "7687b24b697e1b2bf505fc80a3064faa5f88fe361c738d1a65049ae25d96ec74",
+    "prediction_metrics.csv": "7e65021126e1cdbe1c23121df5f18717ba0fd30dd1405b81c48cde073a474b2d",
+    "cohort_audit.csv": "5ce8cf52b5bb62dba9dd3b366fd0f849966470cfca891568ac16154c18328fbf",
+    "paired_agent_contrasts.csv": "9403f18ebe50790212d1fb30f966982bbd15cf47d6b5184d194387734c07821e",
+    "tool_choices.csv": "0ef02b7f31ac1fa23919792a39bd32582db40d5cf11c985b60fd02b76c124a77",
+    "tool_choices_by_scenario.csv": "164107bc4a8d0ae844ff4b8cf1a2a67171373c2a27f2228b6f162c0167f62ad0",
+    "factor_effects.csv": "32c46a9b398f54b1539173c9a5b488b117508f7aa8d0b073c728fdc27c6794c0",
+    "marginal_effects.csv": "56db9b413024b8e8a4f7849bc0641abf76f295ead29275badb6715fbb7f269ae"
+  },
+  "after_plotting_adjustment_sha256": {
+    "agent_outcomes.csv": "7687b24b697e1b2bf505fc80a3064faa5f88fe361c738d1a65049ae25d96ec74",
+    "prediction_metrics.csv": "7e65021126e1cdbe1c23121df5f18717ba0fd30dd1405b81c48cde073a474b2d",
+    "cohort_audit.csv": "5ce8cf52b5bb62dba9dd3b366fd0f849966470cfca891568ac16154c18328fbf",
+    "paired_agent_contrasts.csv": "9403f18ebe50790212d1fb30f966982bbd15cf47d6b5184d194387734c07821e",
+    "tool_choices.csv": "0ef02b7f31ac1fa23919792a39bd32582db40d5cf11c985b60fd02b76c124a77",
+    "tool_choices_by_scenario.csv": "164107bc4a8d0ae844ff4b8cf1a2a67171373c2a27f2228b6f162c0167f62ad0",
+    "factor_effects.csv": "32c46a9b398f54b1539173c9a5b488b117508f7aa8d0b073c728fdc27c6794c0",
+    "marginal_effects.csv": "56db9b413024b8e8a4f7849bc0641abf76f295ead29275badb6715fbb7f269ae"
+  },
+  "plot_change": "Supplemental full-mechanism legends placed above axes; no outcome, eligibility, estimator or CI code changed."
+}

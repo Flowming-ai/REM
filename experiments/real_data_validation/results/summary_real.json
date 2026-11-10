@@ -1,0 +1,44 @@
+{
+  "scenarios": 400,
+  "eligible": 352,
+  "mae": 0.00672,
+  "baseline_current": 0.06374,
+  "nonzero_effect": 199,
+  "negative_effect": 97,
+  "feasibility": {
+    "both_feasible": 384,
+    "actual_only_infeasible": 8,
+    "both_infeasible": 7,
+    "reference_only_infeasible": 1
+  },
+  "success": {
+    "attribution_mpc": 353,
+    "max_charge": 361,
+    "reset_measured": 353,
+    "safe_stop": 25,
+    "software_replay": 276,
+    "state_mpc": 353
+  },
+  "cost": {
+    "attribution_mpc": 1.53099,
+    "max_charge": 2.12363,
+    "reset_measured": 1.53099,
+    "safe_stop": 1.57187,
+    "software_replay": 1.35587,
+    "state_mpc": 1.53099
+  },
+  "unserved": {
+    "attribution_mpc": 0.01253,
+    "max_charge": 0.00697,
+    "reset_measured": 0.01253,
+    "safe_stop": 1.23934,
+    "software_replay": 0.0222,
+    "state_mpc": 0.01253
+  },
+  "maxchg_minus_mpc": 0.60553,
+  "ci": [
+    0.55318,
+    0.65653
+  ],
+  "floored_scenarios": 45
+}

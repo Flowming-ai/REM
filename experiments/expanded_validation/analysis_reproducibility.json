@@ -1,0 +1,20 @@
+{
+  "first_numeric_sha256": {
+    "prediction_metrics.csv": "dc3dadf9176b0d642cb9037065eb7f48f73fa4998b5d932ff890d5a57f5153da",
+    "controller_summary.csv": "3c7c1a627077891b99fd1e11c9ac222ce328d67aeac2dce2465d8abab7eaf85d",
+    "cohort_by_factor.csv": "9c7dedeabd36d6a55a8ecd2820e360920f06fa84169fca247284ea5ec854e33b",
+    "paired_mae_improvements.csv": "b1c752217775bf0a34e9398834f3c57da20787dc8aaae115b4121355e0f4b0eb",
+    "test_predictions.csv": "225e886e52f19d1aa9dc76f08e322092abbfaf0a4eaccfc6eb6f5500fba9762a",
+    "cohort_audit.csv": "e8ef99b91ab2cc3de7aedc2d0ba9b9c747c88ef9517ddc690019290832458afc"
+  },
+  "second_numeric_sha256": {
+    "prediction_metrics.csv": "dc3dadf9176b0d642cb9037065eb7f48f73fa4998b5d932ff890d5a57f5153da",
+    "controller_summary.csv": "3c7c1a627077891b99fd1e11c9ac222ce328d67aeac2dce2465d8abab7eaf85d",
+    "cohort_by_factor.csv": "9c7dedeabd36d6a55a8ecd2820e360920f06fa84169fca247284ea5ec854e33b",
+    "paired_mae_improvements.csv": "b1c752217775bf0a34e9398834f3c57da20787dc8aaae115b4121355e0f4b0eb",
+    "test_predictions.csv": "225e886e52f19d1aa9dc76f08e322092abbfaf0a4eaccfc6eb6f5500fba9762a",
+    "cohort_audit.csv": "e8ef99b91ab2cc3de7aedc2d0ba9b9c747c88ef9517ddc690019290832458afc"
+  },
+  "all_numeric_outputs_identical": true,
+  "note": "Second postprocessing run only; no simulation repeated and no seed or scenario changed."
+}

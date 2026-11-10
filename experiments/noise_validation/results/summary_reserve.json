@@ -1,0 +1,42 @@
+{
+  "0.0": {
+    "reserve2s_success": 331,
+    "reservefix_success": 374,
+    "state_mpc_success": 331,
+    "max_charge_success": 360,
+    "reserve2s_unserved": 0.00208,
+    "margin_kwh": 0.0
+  },
+  "0.06": {
+    "reserve2s_success": 335,
+    "reservefix_success": 372,
+    "state_mpc_success": 118,
+    "max_charge_success": 339,
+    "reserve2s_unserved": 0.00313,
+    "margin_kwh": 0.12
+  },
+  "0.12": {
+    "reserve2s_success": 352,
+    "reservefix_success": 356,
+    "state_mpc_success": 144,
+    "max_charge_success": 337,
+    "reserve2s_unserved": 0.00408,
+    "margin_kwh": 0.24
+  },
+  "0.3": {
+    "reserve2s_success": 383,
+    "reservefix_success": 288,
+    "state_mpc_success": 146,
+    "max_charge_success": 324,
+    "reserve2s_unserved": 0.00551,
+    "margin_kwh": 0.6
+  },
+  "0.6": {
+    "reserve2s_success": 393,
+    "reservefix_success": 209,
+    "state_mpc_success": 123,
+    "max_charge_success": 333,
+    "reserve2s_unserved": 0.00381,
+    "margin_kwh": 1.2
+  }
+}

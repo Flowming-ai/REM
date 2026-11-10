@@ -1,0 +1,130 @@
+{
+  "frozen_utc": "2026-09-24T18:56:19.436827+00:00",
+  "title": "New-seed independent synthetic test from the existing generator",
+  "n_scenarios": 500,
+  "scenario_ids": "external_000 through external_499",
+  "profile_seeds": [
+    10000,
+    10499
+  ],
+  "factor_seed": 20260926,
+  "generation": "500 cases fixed once before simulation; no outcome-dependent replacement or extension; six recovery methods per case",
+  "factor_support": {
+    "strength_cycle": [
+      0.55,
+      0.8,
+      0.95
+    ],
+    "delay_steps": [
+      2,
+      4,
+      8
+    ],
+    "grid_cap_kw": [
+      5.5,
+      7.0,
+      9.0
+    ],
+    "deadline_steps": [
+      4,
+      8,
+      12
+    ],
+    "noise_scale": [
+      0.0,
+      0.05,
+      0.12
+    ],
+    "tariff_scale": [
+      0.7,
+      1.0,
+      1.5
+    ]
+  },
+  "prediction_training": {
+    "source": "../results/main/episodes.csv",
+    "n": 42,
+    "rule": "Original attacked successful finite pairs with seed % 5 != 0; no new-case fitting or selection",
+    "scenario_ids": [
+      "case_001",
+      "case_002",
+      "case_006",
+      "case_007",
+      "case_011",
+      "case_014",
+      "case_017",
+      "case_018",
+      "case_019",
+      "case_021",
+      "case_022",
+      "case_023",
+      "case_029",
+      "case_031",
+      "case_033",
+      "case_037",
+      "case_038",
+      "case_041",
+      "case_042",
+      "case_043",
+      "case_046",
+      "case_047",
+      "case_049",
+      "case_051",
+      "case_053",
+      "case_057",
+      "case_058",
+      "case_061",
+      "case_062",
+      "case_063",
+      "case_066",
+      "case_073",
+      "case_077",
+      "case_081",
+      "case_083",
+      "case_086",
+      "case_087",
+      "case_089",
+      "case_091",
+      "case_093",
+      "case_097",
+      "case_099"
+    ],
+    "intercept": -1.7383162682306619,
+    "slope": 0.8279571051506476,
+    "source_sha256": "f276bcc2e31afc6233077984bd21af6b124d7911221007b8715abe0eab716140"
+  },
+  "test_cohort": "All 500 are new test cases; finite paired-cost prediction comparison requires both initial recovery problems feasible, both rolling recoveries successful, finite inputs/target and positive efficiency. All exclusions and failures reported separately.",
+  "predictors": [
+    "counterfactual_cost",
+    "soc_ols",
+    "current_price",
+    "forecast_price"
+  ],
+  "endpoints": [
+    "MAE",
+    "RMSE",
+    "median_absolute_error",
+    "p90_absolute_error",
+    "p95_absolute_error",
+    "maximum_absolute_error",
+    "paired_MAE_improvement"
+  ],
+  "subgroups": [
+    "all_eligible",
+    "noise_scale_positive",
+    "noise_scale_zero",
+    "noise_scale_0.05",
+    "noise_scale_0.12"
+  ],
+  "bootstrap": {
+    "seed": 20260927,
+    "draws": 20000,
+    "unit": "whole scenario, paired across all predictors",
+    "interval": "95% percentile, linear quantiles",
+    "no_refitting": true
+  },
+  "network_scope": "No new AC validation or feasibility/prevention sweeps; original network evidence does not validate these 500 cases.",
+  "scientific_scope": "Independent profile seeds from the same synthetic generator and parameter support; not measured, out-of-distribution, cross-platform or LLM-agent validation.",
+  "scenario_config_sha256": "ad8d25c6364235af865852e2c4fdb8cb4a2f8bc0a54d3cae8db0662c3d537d3e",
+  "run_script_sha256": "a87d3b347ecd7616259e14932b650e5856e0c14d52e55236ae298fcd13846bc5"
+}

@@ -1,0 +1,49 @@
+{
+  "n_pairs": 12,
+  "n_llm_cycles": 96,
+  "n_generation_calls": 192,
+  "n_physically_divergent_pairs": 12,
+  "n_initially_paired_feasible": 12,
+  "n_successful_paired_predictions": 9,
+  "energy_deficit_mean_kwh": 4.413164094658276,
+  "energy_deficit_range_kwh": [
+    3.9338678976042423,
+    4.893909809741388
+  ],
+  "estimated_cost_mean_usd": 1.3041004674160765,
+  "executed_cost_mean_usd": 1.30594460655193,
+  "eligible_prediction_mae_usd": 0.034305402671090106,
+  "eligible_prediction_rmse_usd": 0.05353748383458508,
+  "tool_choices": [
+    {
+      "condition": "clean",
+      "decision_cycles": 48,
+      "executed_received": 48,
+      "executed_verified": 0,
+      "model_hold": 0,
+      "invalid_call_hold": 0,
+      "tool_budget_hold": 0,
+      "generation_calls": 96,
+      "mean_inference_seconds_per_cycle": 1.4769167475208935
+    },
+    {
+      "condition": "poisoned",
+      "decision_cycles": 48,
+      "executed_received": 48,
+      "executed_verified": 0,
+      "model_hold": 0,
+      "invalid_call_hold": 0,
+      "tool_budget_hold": 0,
+      "generation_calls": 96,
+      "mean_inference_seconds_per_cycle": 1.6996350798957185
+    }
+  ],
+  "raw_tool_calls": {
+    "plan_dispatch": 96,
+    "execute_plan": 96
+  },
+  "decoding": "grammar-constrained greedy; plan(received)/hold and execute/hold choices come from model output",
+  "design_origin": "Authenticated-source availability ablation on the same twelve formal seeds; not additional independent samples.",
+  "interpretation": "All fixed pairs retained. If no physical divergence occurs, zero attribution error is algebraically trivial and is not predictive validation.",
+  "figure_case_selection": "seed 24000, fixed first case; no outcome-based selection"
+}

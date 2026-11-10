@@ -1,0 +1,22 @@
+{
+  "purpose": "Test whether an explicit reserve margin recovers the success rate that cost-minimal recovery loses to observation error, and at what cost.",
+  "cohort": "the same 500 independent test scenarios and the same noise draws as the noise cohort",
+  "sigmas_kwh": [
+    0.0,
+    0.06,
+    0.12,
+    0.3,
+    0.6
+  ],
+  "margin_rules": {
+    "reserve_2sigma": "margin = 2*sigma kWh",
+    "reserve_fixed_0p25": "margin = 0.25 kWh"
+  },
+  "evaluation": "success, unserved energy and cost judged against the original 9 kWh target; the raised target enters the planning constraints only",
+  "declared_before_execution": true,
+  "primary_outcomes": [
+    "complete recovery count",
+    "mean unserved critical energy",
+    "post-detection purchase cost on jointly successful scenarios"
+  ]
+}

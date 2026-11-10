@@ -1,0 +1,19 @@
+{
+  "profiles": 2,
+  "trajectories": 16,
+  "cycles": 96,
+  "llm_generations": 104,
+  "seconds": 57.306295094000234,
+  "scope": "Technical execution check only, excluded from main 300 and not used to select cases or prompts.",
+  "source_sha256": {
+    "llm_agent_validation/expanded/run.py": "3040f1b137c9d2997c77983e535974bf19217e44e1ecf8fc7893f79ce252ac91",
+    "llm_agent_validation/formal/run_validation.py": "2eb258d8d23f3e8af5d15aa676828b8ff5487d39d850d5785129fe274836c3da",
+    "llm_agent_validation/formal/no_authenticated_source/run_validation.py": "914756d41b424bddd7dfc8e9b7ca0ccdaa80a6bd2759a440f25fdd9497a60cf3",
+    "src/recovery/__init__.py": "8af43a9404ca15712018210db4ccf63e670f6e7126d9443d3f9c685399d50aef",
+    "src/recovery/analysis.py": "83d87a78c91e45f30a4a08631ac2b9e23df78901bc2db45cac03c6a5be201d17",
+    "src/recovery/extra_analysis.py": "a542f79e092de2739901d6049ade06b821d3f6ddfacbc290c2e0a29eee9e8d71",
+    "src/recovery/model.py": "9088d8c6d5b3e2dee83b9b3a03de7627706db48c69564f877dd30aaa6bd9f399",
+    "src/recovery/optimization.py": "64748e0c01e5c5d0ad120e2fe8b558c0e2348ce193a61a5aec953bc20123e368",
+    "src/recovery/platform.py": "14abfa5d5b49ed251667796ea996f8d802de151b88b500786cff4664d27335bf"
+  }
+}

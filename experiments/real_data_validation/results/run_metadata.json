@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-08T18:07:54.407588+00:00",
+  "elapsed_seconds": 149.21290112001589,
+  "scenarios": 400,
+  "methods": [
+    "attribution_mpc",
+    "state_mpc",
+    "software_replay",
+    "reset_measured",
+    "max_charge",
+    "safe_stop"
+  ],
+  "protocol_sha256": "cf548af2df2d79aeb779720ce89e7461ba907a32975e7c9c10ec96467a72a443",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3"
+  },
+  "original_assets_unchanged": true
+}

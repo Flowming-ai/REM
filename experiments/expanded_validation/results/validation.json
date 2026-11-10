@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "validated_utc": "2026-09-24T19:01:15.133456+00:00",
+  "results_directory": "/home/fangming/RMProj/experiments/expanded_validation/results",
+  "validator_sha256": "c9a48a4815ae0959f750f0eb50fec712e601fc2a6819c4381528d9a5a2f38550",
+  "absolute_tolerance": 1e-06,
+  "counts": {
+    "scenarios": 500,
+    "episodes": 500,
+    "controllers": 3000,
+    "trace_rows": 118660,
+    "profile_rows": 20000,
+    "ledger_events": 55732,
+    "ledger_chains": 2500,
+    "ac_validation": "not_requested"
+  },
+  "checks_passed": 48,
+  "checks_total": 48,
+  "checks": [
+    {
+      "name": "run_finished",
+      "passed": true,
+      "recorded_status": "complete"
+    },
+    {
+      "name": "scenario_count_and_ids",
+      "passed": true
+    },
+    {
+      "name": "synthetic_data_declared",
+      "passed": true
+    },
+    {
+      "name": "controllers_unique_keys",
+      "passed": true
+    },
+    {
+      "name": "controllers_scenario_ids",
+      "passed": true
+    },
+    {
+      "name": "traces_unique_keys",
+      "passed": true
+    },
+    {
+      "name": "traces_scenario_ids",
+      "passed": true
+    },
+    {
+      "name": "profiles_unique_keys",
+      "passed": true
+    },
+    {
+      "name": "profiles_scenario_ids",
+      "passed": true
+    },
+    {
+      "name": "exact_six_controllers_per_scenario",
+      "passed": true
+    },
+    {
+      "name": "expected_total_trace_count",
+      "passed": true
+    },
+    {
+      "name": "expected_total_profile_count",
+      "passed": true
+    },
+    {
+      "name": "scenario_configuration_matches_rows",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "trajectory_times_initial_states_and_continuity",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "controller_summaries_recomputed_from_traces",
+      "passed": true,
+      "compared": 30000,
+      "failed": 0,
+      "max_absolute_error": 7.105427357601002e-15
+    },
+    {
+      "name": "controller_success_flags_recomputed",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "episode_history_and_reference_accounting",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "finite_physical_trace_values",
+      "passed": true
+    },
+    {
+      "name": "hard_energy_bounds",
+      "passed": true
+    },
+    {
+      "name": "hard_power_and_service_bounds",
+      "passed": true
+    },
+    {
+      "name": "no_simultaneous_charging_and_discharging",
+      "passed": true
+    },
+    {
+      "name": "sampling_interval",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "battery_energy_balance",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 5.329070518200751e-15
+    },
+    {
+      "name": "power_balance",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 3.552713678800501e-15
+    },
+    {
+      "name": "critical_service_balance",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "name": "grid_purchase_cost",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "actuator_clipping_accounting",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 3.122502256758253e-16
+    },
+    {
+      "name": "shared_exogenous_load_kw",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_pv_available_kw",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_true_price",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_grid_limit_kw",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "shared_exogenous_physical_grid_limit_kw",
+      "passed": true,
+      "compared": 118660,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "attribution_mpc_same_actions_and_outcomes_as_state_mpc",
+      "passed": true,
+      "unequal_columns": []
+    },
+    {
+      "name": "reset_measured_same_actions_and_outcomes_as_state_mpc",
+      "passed": true,
+      "unequal_columns": []
+    },
+    {
+      "name": "paired_soc_deficit",
+      "passed": true,
+      "compared": 500,
+      "failed": 0,
+      "max_absolute_error": 3.552713678800501e-15
+    },
+    {
+      "name": "realized_cost_difference",
+      "passed": true,
+      "compared": 500,
+      "failed": 0,
+      "max_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "episode_actual_future_cost",
+      "passed": true,
+      "compared": 500,
+      "failed": 0,
+      "max_absolute_error": 0.0
+    },
+    {
+      "name": "realized_pair_success_flag",
+      "passed": true
+    },
+    {
+      "name": "estimated_delta_defined_iff_both_strictly_feasible",
+      "passed": true
+    },
+    {
+      "name": "branch_optima_defined_iff_strictly_feasible",
+      "passed": true
+    },
+    {
+      "name": "estimated_paired_cost_difference",
+      "passed": true,
+      "compared": 397,
+      "failed": 0,
+      "max_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "name": "feasibility_classes",
+      "passed": true
+    },
+    {
+      "name": "no_attack_same_detection_state",
+      "passed": true,
+      "compared": 0,
+      "failed": 0,
+      "max_absolute_error": null
+    },
+    {
+      "name": "no_attack_zero_realized_cost_difference",
+      "passed": true,
+      "compared": 0,
+      "failed": 0,
+      "max_absolute_error": null
+    },
+    {
+      "name": "no_attack_zero_defined_estimated_difference",
+      "passed": true,
+      "compared": 0,
+      "failed": 0,
+      "max_absolute_error": null
+    },
+    {
+      "name": "ledger_complete_unique_trace_coverage",
+      "passed": true,
+      "expected_events": 55732,
+      "actual_events": 55732,
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "name": "ledger_hashes_chains_forecasts_and_effect_correspondence",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "max_trace_numeric_error": 1.7763568394002505e-15,
+      "scope": "Internal consistency only; an unanchored hash chain is not proof against complete rewriting."
+    },
+    {
+      "name": "recorded_code_hashes_match_current_files",
+      "passed": true,
+      "changed_or_missing": [],
+      "note": "Changed postprocessing also requires a new provenance record."
+    }
+  ],
+  "scope": "Saved-output consistency, physical constraints, paired accounting, hash-chain integrity and AC reporting; no new optimization runs or assumption validation."
+}

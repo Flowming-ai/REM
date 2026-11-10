@@ -1,0 +1,207 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 16505.07it/s]
+{"part": "part_000", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_000", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_000", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_000", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_000", "interval_completed": 8, "llm_cycles_so_far": 116}
+{"part": "part_000", "interval_completed": 9, "llm_cycles_so_far": 124}
+{"part": 0, "completed_profiles": 10, "wall_seconds_this_launch": 103.67929546199593, "profiles": 10, "trajectories": 80, "cycles": 248, "llm_generations": 274}
+{"part": "part_001", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_001", "interval_completed": 5, "llm_cycles_so_far": 68}
+{"part": "part_001", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_001", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_001", "interval_completed": 8, "llm_cycles_so_far": 116}
+{"part": "part_001", "interval_completed": 9, "llm_cycles_so_far": 124}
+{"part": 1, "completed_profiles": 20, "wall_seconds_this_launch": 200.13455201099714, "profiles": 10, "trajectories": 80, "cycles": 248, "llm_generations": 269}
+{"part": "part_002", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_002", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_002", "interval_completed": 6, "llm_cycles_so_far": 100}
+{"part": "part_002", "interval_completed": 7, "llm_cycles_so_far": 128}
+{"part": "part_002", "interval_completed": 8, "llm_cycles_so_far": 136}
+{"part": "part_002", "interval_completed": 9, "llm_cycles_so_far": 144}
+{"part": 2, "completed_profiles": 30, "wall_seconds_this_launch": 308.7214765269964, "profiles": 10, "trajectories": 80, "cycles": 288, "llm_generations": 307}
+{"part": "part_003", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_003", "interval_completed": 5, "llm_cycles_so_far": 64}
+{"part": "part_003", "interval_completed": 6, "llm_cycles_so_far": 84}
+{"part": "part_003", "interval_completed": 7, "llm_cycles_so_far": 100}
+{"part": "part_003", "interval_completed": 8, "llm_cycles_so_far": 112}
+{"part": "part_003", "interval_completed": 9, "llm_cycles_so_far": 124}
+{"part": 3, "completed_profiles": 40, "wall_seconds_this_launch": 402.7217359380011, "profiles": 10, "trajectories": 80, "cycles": 248, "llm_generations": 265}
+{"part": "part_004", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_004", "interval_completed": 5, "llm_cycles_so_far": 60}
+{"part": "part_004", "interval_completed": 6, "llm_cycles_so_far": 80}
+{"part": "part_004", "interval_completed": 7, "llm_cycles_so_far": 96}
+{"part": "part_004", "interval_completed": 8, "llm_cycles_so_far": 104}
+{"part": "part_004", "interval_completed": 9, "llm_cycles_so_far": 112}
+{"part": 4, "completed_profiles": 50, "wall_seconds_this_launch": 491.5963780749953, "profiles": 10, "trajectories": 80, "cycles": 224, "llm_generations": 241}
+{"part": "part_005", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_005", "interval_completed": 5, "llm_cycles_so_far": 80}
+{"part": "part_005", "interval_completed": 6, "llm_cycles_so_far": 108}
+{"part": "part_005", "interval_completed": 7, "llm_cycles_so_far": 132}
+{"part": "part_005", "interval_completed": 8, "llm_cycles_so_far": 144}
+{"part": "part_005", "interval_completed": 9, "llm_cycles_so_far": 156}
+{"part": 5, "completed_profiles": 60, "wall_seconds_this_launch": 616.5263532769968, "profiles": 10, "trajectories": 80, "cycles": 312, "llm_generations": 344}
+{"part": "part_006", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_006", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_006", "interval_completed": 6, "llm_cycles_so_far": 96}
+{"part": "part_006", "interval_completed": 7, "llm_cycles_so_far": 104}
+{"part": "part_006", "interval_completed": 8, "llm_cycles_so_far": 108}
+{"part": "part_006", "interval_completed": 9, "llm_cycles_so_far": 112}
+{"part": 6, "completed_profiles": 70, "wall_seconds_this_launch": 707.1847037269981, "profiles": 10, "trajectories": 80, "cycles": 224, "llm_generations": 243}
+{"part": "part_007", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_007", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_007", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_007", "interval_completed": 7, "llm_cycles_so_far": 104}
+{"part": "part_007", "interval_completed": 8, "llm_cycles_so_far": 112}
+{"part": "part_007", "interval_completed": 9, "llm_cycles_so_far": 120}
+{"part": 7, "completed_profiles": 80, "wall_seconds_this_launch": 802.765519994995, "profiles": 10, "trajectories": 80, "cycles": 240, "llm_generations": 263}
+{"part": "part_008", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_008", "interval_completed": 5, "llm_cycles_so_far": 68}
+{"part": "part_008", "interval_completed": 6, "llm_cycles_so_far": 80}
+{"part": "part_008", "interval_completed": 7, "llm_cycles_so_far": 92}
+{"part": "part_008", "interval_completed": 8, "llm_cycles_so_far": 100}
+{"part": "part_008", "interval_completed": 9, "llm_cycles_so_far": 108}
+{"part": 8, "completed_profiles": 90, "wall_seconds_this_launch": 882.410940283, "profiles": 10, "trajectories": 80, "cycles": 216, "llm_generations": 226}
+{"part": "part_009", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_009", "interval_completed": 5, "llm_cycles_so_far": 68}
+{"part": "part_009", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_009", "interval_completed": 7, "llm_cycles_so_far": 104}
+{"part": 9, "completed_profiles": 100, "wall_seconds_this_launch": 964.241701121995, "profiles": 10, "trajectories": 80, "cycles": 208, "llm_generations": 226}
+{"part": "part_010", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_010", "interval_completed": 5, "llm_cycles_so_far": 68}
+{"part": "part_010", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_010", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_010", "interval_completed": 8, "llm_cycles_so_far": 120}
+{"part": "part_010", "interval_completed": 9, "llm_cycles_so_far": 132}
+{"part": 10, "completed_profiles": 110, "wall_seconds_this_launch": 1069.8330703159954, "profiles": 10, "trajectories": 80, "cycles": 264, "llm_generations": 291}
+{"part": "part_011", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_011", "interval_completed": 5, "llm_cycles_so_far": 80}
+{"part": "part_011", "interval_completed": 6, "llm_cycles_so_far": 104}
+{"part": "part_011", "interval_completed": 7, "llm_cycles_so_far": 124}
+{"part": "part_011", "interval_completed": 8, "llm_cycles_so_far": 140}
+{"part": "part_011", "interval_completed": 9, "llm_cycles_so_far": 156}
+{"part": 11, "completed_profiles": 120, "wall_seconds_this_launch": 1189.977166189994, "profiles": 10, "trajectories": 80, "cycles": 312, "llm_generations": 338}
+{"part": "part_012", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_012", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_012", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_012", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_012", "interval_completed": 8, "llm_cycles_so_far": 112}
+{"part": "part_012", "interval_completed": 9, "llm_cycles_so_far": 116}
+{"part": 12, "completed_profiles": 130, "wall_seconds_this_launch": 1280.3333904009996, "profiles": 10, "trajectories": 80, "cycles": 232, "llm_generations": 249}
+{"part": "part_013", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_013", "interval_completed": 5, "llm_cycles_so_far": 80}
+{"part": "part_013", "interval_completed": 6, "llm_cycles_so_far": 116}
+{"part": "part_013", "interval_completed": 7, "llm_cycles_so_far": 140}
+{"part": "part_013", "interval_completed": 8, "llm_cycles_so_far": 144}
+{"part": "part_013", "interval_completed": 9, "llm_cycles_so_far": 148}
+{"part": 13, "completed_profiles": 140, "wall_seconds_this_launch": 1397.929952546001, "profiles": 10, "trajectories": 80, "cycles": 296, "llm_generations": 323}
+{"part": "part_014", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_014", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_014", "interval_completed": 6, "llm_cycles_so_far": 104}
+{"part": "part_014", "interval_completed": 7, "llm_cycles_so_far": 120}
+{"part": "part_014", "interval_completed": 8, "llm_cycles_so_far": 124}
+{"part": "part_014", "interval_completed": 9, "llm_cycles_so_far": 128}
+{"part": 14, "completed_profiles": 150, "wall_seconds_this_launch": 1495.919934808, "profiles": 10, "trajectories": 80, "cycles": 256, "llm_generations": 273}
+{"part": "part_015", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_015", "interval_completed": 5, "llm_cycles_so_far": 60}
+{"part": "part_015", "interval_completed": 6, "llm_cycles_so_far": 72}
+{"part": "part_015", "interval_completed": 7, "llm_cycles_so_far": 80}
+{"part": "part_015", "interval_completed": 8, "llm_cycles_so_far": 84}
+{"part": "part_015", "interval_completed": 9, "llm_cycles_so_far": 88}
+{"part": 15, "completed_profiles": 160, "wall_seconds_this_launch": 1562.836349860001, "profiles": 10, "trajectories": 80, "cycles": 176, "llm_generations": 185}
+{"part": "part_016", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_016", "interval_completed": 5, "llm_cycles_so_far": 64}
+{"part": "part_016", "interval_completed": 6, "llm_cycles_so_far": 84}
+{"part": "part_016", "interval_completed": 7, "llm_cycles_so_far": 96}
+{"part": 16, "completed_profiles": 170, "wall_seconds_this_launch": 1638.0706863679952, "profiles": 10, "trajectories": 80, "cycles": 192, "llm_generations": 207}
+{"part": "part_017", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_017", "interval_completed": 5, "llm_cycles_so_far": 68}
+{"part": "part_017", "interval_completed": 6, "llm_cycles_so_far": 96}
+{"part": "part_017", "interval_completed": 7, "llm_cycles_so_far": 112}
+{"part": "part_017", "interval_completed": 8, "llm_cycles_so_far": 120}
+{"part": "part_017", "interval_completed": 9, "llm_cycles_so_far": 128}
+{"part": 17, "completed_profiles": 180, "wall_seconds_this_launch": 1735.9082937759958, "profiles": 10, "trajectories": 80, "cycles": 256, "llm_generations": 273}
+{"part": "part_018", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_018", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_018", "interval_completed": 6, "llm_cycles_so_far": 100}
+{"part": "part_018", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_018", "interval_completed": 8, "llm_cycles_so_far": 112}
+{"part": "part_018", "interval_completed": 9, "llm_cycles_so_far": 116}
+{"part": 18, "completed_profiles": 190, "wall_seconds_this_launch": 1828.0294176229945, "profiles": 10, "trajectories": 80, "cycles": 232, "llm_generations": 250}
+{"part": "part_019", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_019", "interval_completed": 5, "llm_cycles_so_far": 80}
+{"part": "part_019", "interval_completed": 6, "llm_cycles_so_far": 112}
+{"part": "part_019", "interval_completed": 7, "llm_cycles_so_far": 140}
+{"part": "part_019", "interval_completed": 8, "llm_cycles_so_far": 168}
+{"part": "part_019", "interval_completed": 9, "llm_cycles_so_far": 196}
+{"part": 19, "completed_profiles": 200, "wall_seconds_this_launch": 1977.1987863719987, "profiles": 10, "trajectories": 80, "cycles": 392, "llm_generations": 422}
+{"part": "part_020", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_020", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_020", "interval_completed": 6, "llm_cycles_so_far": 92}
+{"part": "part_020", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_020", "interval_completed": 8, "llm_cycles_so_far": 112}
+{"part": "part_020", "interval_completed": 9, "llm_cycles_so_far": 116}
+{"part": 20, "completed_profiles": 210, "wall_seconds_this_launch": 2069.635484923994, "profiles": 10, "trajectories": 80, "cycles": 232, "llm_generations": 249}
+{"part": "part_021", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_021", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_021", "interval_completed": 6, "llm_cycles_so_far": 104}
+{"part": "part_021", "interval_completed": 7, "llm_cycles_so_far": 116}
+{"part": "part_021", "interval_completed": 8, "llm_cycles_so_far": 124}
+{"part": "part_021", "interval_completed": 9, "llm_cycles_so_far": 132}
+{"part": 21, "completed_profiles": 220, "wall_seconds_this_launch": 2172.8806191719996, "profiles": 10, "trajectories": 80, "cycles": 264, "llm_generations": 286}
+{"part": "part_022", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_022", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_022", "interval_completed": 6, "llm_cycles_so_far": 104}
+{"part": "part_022", "interval_completed": 7, "llm_cycles_so_far": 128}
+{"part": "part_022", "interval_completed": 8, "llm_cycles_so_far": 140}
+{"part": "part_022", "interval_completed": 9, "llm_cycles_so_far": 152}
+{"part": 22, "completed_profiles": 230, "wall_seconds_this_launch": 2288.4253329290004, "profiles": 10, "trajectories": 80, "cycles": 304, "llm_generations": 328}
+{"part": "part_023", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_023", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_023", "interval_completed": 6, "llm_cycles_so_far": 100}
+{"part": "part_023", "interval_completed": 7, "llm_cycles_so_far": 116}
+{"part": "part_023", "interval_completed": 8, "llm_cycles_so_far": 120}
+{"part": "part_023", "interval_completed": 9, "llm_cycles_so_far": 124}
+{"part": 23, "completed_profiles": 240, "wall_seconds_this_launch": 2388.3354276169994, "profiles": 10, "trajectories": 80, "cycles": 248, "llm_generations": 273}
+{"part": "part_024", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_024", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_024", "interval_completed": 6, "llm_cycles_so_far": 96}
+{"part": "part_024", "interval_completed": 7, "llm_cycles_so_far": 108}
+{"part": "part_024", "interval_completed": 8, "llm_cycles_so_far": 120}
+{"part": "part_024", "interval_completed": 9, "llm_cycles_so_far": 132}
+{"part": 24, "completed_profiles": 250, "wall_seconds_this_launch": 2485.382185192997, "profiles": 10, "trajectories": 80, "cycles": 264, "llm_generations": 278}
+{"part": "part_025", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_025", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_025", "interval_completed": 6, "llm_cycles_so_far": 112}
+{"part": "part_025", "interval_completed": 7, "llm_cycles_so_far": 128}
+{"part": "part_025", "interval_completed": 8, "llm_cycles_so_far": 136}
+{"part": "part_025", "interval_completed": 9, "llm_cycles_so_far": 144}
+{"part": 25, "completed_profiles": 260, "wall_seconds_this_launch": 2584.0707993219985, "profiles": 10, "trajectories": 80, "cycles": 288, "llm_generations": 300}
+{"part": "part_026", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_026", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_026", "interval_completed": 6, "llm_cycles_so_far": 108}
+{"part": "part_026", "interval_completed": 7, "llm_cycles_so_far": 124}
+{"part": "part_026", "interval_completed": 8, "llm_cycles_so_far": 136}
+{"part": "part_026", "interval_completed": 9, "llm_cycles_so_far": 148}
+{"part": 26, "completed_profiles": 270, "wall_seconds_this_launch": 2695.543683330994, "profiles": 10, "trajectories": 80, "cycles": 296, "llm_generations": 313}
+{"part": "part_027", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_027", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_027", "interval_completed": 6, "llm_cycles_so_far": 96}
+{"part": "part_027", "interval_completed": 7, "llm_cycles_so_far": 116}
+{"part": "part_027", "interval_completed": 8, "llm_cycles_so_far": 120}
+{"part": "part_027", "interval_completed": 9, "llm_cycles_so_far": 124}
+{"part": 27, "completed_profiles": 280, "wall_seconds_this_launch": 2792.858232554994, "profiles": 10, "trajectories": 80, "cycles": 248, "llm_generations": 268}
+{"part": "part_028", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_028", "interval_completed": 5, "llm_cycles_so_far": 72}
+{"part": "part_028", "interval_completed": 6, "llm_cycles_so_far": 84}
+{"part": "part_028", "interval_completed": 7, "llm_cycles_so_far": 92}
+{"part": "part_028", "interval_completed": 8, "llm_cycles_so_far": 100}
+{"part": "part_028", "interval_completed": 9, "llm_cycles_so_far": 108}
+{"part": 28, "completed_profiles": 290, "wall_seconds_this_launch": 2878.2119857020007, "profiles": 10, "trajectories": 80, "cycles": 216, "llm_generations": 233}
+{"part": "part_029", "interval_completed": 4, "llm_cycles_so_far": 40}
+{"part": "part_029", "interval_completed": 5, "llm_cycles_so_far": 76}
+{"part": "part_029", "interval_completed": 6, "llm_cycles_so_far": 96}
+{"part": "part_029", "interval_completed": 7, "llm_cycles_so_far": 112}
+{"part": "part_029", "interval_completed": 8, "llm_cycles_so_far": 120}
+{"part": "part_029", "interval_completed": 9, "llm_cycles_so_far": 128}
+{"part": 29, "completed_profiles": 300, "wall_seconds_this_launch": 2979.574033361998, "profiles": 10, "trajectories": 80, "cycles": 256, "llm_generations": 278}

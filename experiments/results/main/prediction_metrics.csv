@@ -1,0 +1,5 @@
+predictor,label,n_test,n_train,mae,rmse,r2,spearman,small_sample,fitted_on_training_only
+counterfactual_cost,Counterfactual cost,18,58,0.00468969890459325,0.011017688911743274,0.9999619650030782,1.0,False,False
+soc_ols,SoC deficit: train-only OLS,18,58,0.640876263468286,0.9384674691808358,0.724043378179801,0.9831401475237094,False,True
+current_price,Deficit / efficiency × current price,18,58,0.18536650145009081,0.43056607651255985,0.9419125926049996,0.9915700737618547,False,False
+forecast_price,Deficit / efficiency × mean forecast price,18,58,0.5123417633788612,0.7105922836237363,0.8417865691779406,0.981032665964173,False,False

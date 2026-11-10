@@ -1,0 +1,24 @@
+{
+  "completed_at_utc": "2026-09-24T20:21:31.207829+00:00",
+  "scenario_ids": [
+    "llm300_190",
+    "llm300_191",
+    "llm300_192",
+    "llm300_193",
+    "llm300_194",
+    "llm300_195",
+    "llm300_196",
+    "llm300_197",
+    "llm300_198",
+    "llm300_199"
+  ],
+  "files_sha256": {
+    "agent_steps.csv": "14f9969a86dea37e92dce73b860af5864eedd6eca56a9c335e10ff84d969be98",
+    "effect_ledger.jsonl.gz": "c2b70f0b9ea48f24ed5fa2d0e0fc65426ed7f6ffbfa8e6ab2795d9635e66f28e",
+    "model_transcripts.jsonl.gz": "8da81c73e0acc4027e1c957d8f8c88e976821efc079b42a75dc20cc3270e931e",
+    "paired_episodes.csv": "1b49799ee133a8db83284d171596655cc0db3a0bac47f766926b4a9d414213f8",
+    "profiles.csv": "80334861e79480fe88623210319ded3095ef19f445167f87d9868bfc13663e52",
+    "recovery_outcomes.csv": "10e3a6df3cca3cb8c7edbfe69135177c635dfa2d1231fb25b982d354333fe2f3",
+    "traces.csv": "2c27fc60e4038dd20632b09e86a5b36cbce558f1242ee8aa93f70946ccb4a72a"
+  }
+}

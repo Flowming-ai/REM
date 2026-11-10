@@ -1,0 +1,38 @@
+{
+  "verified_at_utc": "2026-09-24T20:44:16.096159+00:00",
+  "all_passed": true,
+  "checks": {
+    "agent_outcomes": true,
+    "prediction_metrics": true,
+    "cohort_audit": true,
+    "paired_agent_contrasts": true,
+    "tool_choices": true,
+    "tool_choices_by_scenario": true,
+    "factor_effects": true,
+    "marginal_effects": true,
+    "bootstrap_index_digest": true,
+    "figure_case_selection_predeclared": true
+  },
+  "failures": {},
+  "numerical_quantities_recomputed": 24860,
+  "metric_groups_recomputed": 624,
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20260929,
+  "absolute_comparison_tolerance": 2e-11,
+  "validator_sha256": "cb3007cc8c2bc6030fdfdf54649dcc891e60cdceb9d1d913a8293febbb89d37a",
+  "analysis_script_sha256": "a5bda031a734dfe6cf4e4dfba7ef34630f792fa6acbe550bb0b141a63760bdab",
+  "input_file_sha256": {
+    "paired_episodes.csv": "01ab5d692eb627a0a4663e66fa47e8a854630611eb03aafe9eb4e089343b21d5",
+    "agent_steps.csv": "da5091ec6cd0518aef01938f237632feb216df17ba5e056d3ab8ed1a10a5287c",
+    "agent_outcomes.csv": "7687b24b697e1b2bf505fc80a3064faa5f88fe361c738d1a65049ae25d96ec74",
+    "prediction_metrics.csv": "7e65021126e1cdbe1c23121df5f18717ba0fd30dd1405b81c48cde073a474b2d",
+    "cohort_audit.csv": "5ce8cf52b5bb62dba9dd3b366fd0f849966470cfca891568ac16154c18328fbf",
+    "paired_agent_contrasts.csv": "9403f18ebe50790212d1fb30f966982bbd15cf47d6b5184d194387734c07821e",
+    "tool_choices.csv": "0ef02b7f31ac1fa23919792a39bd32582db40d5cf11c985b60fd02b76c124a77",
+    "tool_choices_by_scenario.csv": "164107bc4a8d0ae844ff4b8cf1a2a67171373c2a27f2228b6f162c0167f62ad0",
+    "factor_effects.csv": "32c46a9b398f54b1539173c9a5b488b117508f7aa8d0b073c728fdc27c6794c0",
+    "marginal_effects.csv": "56db9b413024b8e8a4f7849bc0641abf76f295ead29275badb6715fbb7f269ae",
+    "analysis_summary.json": "ecb20b19caec186d31f2fd364cbfe5cde0b37aeeebc5be2846511205b05314ac"
+  },
+  "scope": "All eight analysis tables independently recomputed from raw paired outcomes and cycle records; no import of analyze.py or its statistical helpers."
+}

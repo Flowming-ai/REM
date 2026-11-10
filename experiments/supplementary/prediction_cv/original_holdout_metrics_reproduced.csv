@@ -1,0 +1,5 @@
+predictor,label,n_cases,mae,rmse
+counterfactual_cost,Paired constrained cost,13,0.0064934292525137315,0.012964479405155495
+soc_ols,Energy-deficit affine regression,13,0.57694029251229384,0.78824880700742417
+current_price,Deficit / efficiency × current price,13,0.25666130970012574,0.50664572908352923
+forecast_price,Deficit / efficiency × mean forecast price,13,0.70939628775534636,0.83615167393982082

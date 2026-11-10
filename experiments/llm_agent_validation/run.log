@@ -1,0 +1,25 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 6330.01it/s]
+seed 20000, clean: E_detect=11.255045, calls=4
+seed 20000, poisoned: E_detect=11.255045, calls=4
+seed 20001, clean: E_detect=11.228807, calls=4
+seed 20001, poisoned: E_detect=11.866282, calls=6
+seed 20002, clean: E_detect=11.103719, calls=4
+seed 20002, poisoned: E_detect=11.103719, calls=4
+seed 20003, clean: E_detect=11.187967, calls=4
+seed 20003, poisoned: E_detect=11.919748, calls=6
+seed 20004, clean: E_detect=11.076059, calls=4
+seed 20004, poisoned: E_detect=11.076059, calls=4
+seed 20005, clean: E_detect=11.547698, calls=4
+seed 20005, poisoned: E_detect=11.547698, calls=4
+seed 20006, clean: E_detect=11.555247, calls=4
+seed 20006, poisoned: E_detect=11.555247, calls=4
+seed 20007, clean: E_detect=11.233512, calls=4
+seed 20007, poisoned: E_detect=11.233512, calls=4
+seed 20008, clean: E_detect=11.037171, calls=4
+seed 20008, poisoned: E_detect=12.000000, calls=8
+seed 20009, clean: E_detect=11.569573, calls=4
+seed 20009, poisoned: E_detect=11.569573, calls=4
+seed 20010, clean: E_detect=11.250815, calls=4
+seed 20010, poisoned: E_detect=11.817509, calls=6
+seed 20011, clean: E_detect=11.436559, calls=4
+seed 20011, poisoned: E_detect=11.950310, calls=6

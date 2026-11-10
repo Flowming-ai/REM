@@ -1,0 +1,37 @@
+{
+  "verified_at_utc": "2026-09-24T20:43:52.708355+00:00",
+  "status": "passed",
+  "figures_inspected": [
+    "expanded_llm_outcomes",
+    "expanded_llm_factors",
+    "expanded_llm_mechanism",
+    "expanded_llm_cell_effects",
+    "expanded_llm_mechanism_full"
+  ],
+  "method": "All five PNGs visually inspected at rendered resolution; supplemental full-mechanism legend positions revised and reinspected. Main three PDF/SVG/PNG sets copied to paper/figures.",
+  "findings": [
+    "Axes, legends and sample denominators readable; no clipped labels.",
+    "Both mechanism figures retain the whole 0\u201310 h trajectory and final interval in action/price step plots.",
+    "Cases remain predeclared seed30021 at5.5kW and30007 at7kW.",
+    "Cost plot shows each arm own eligible n; formal cost contrasts use common eligible intersection.",
+    "Statistical CSV hashes unchanged after plotting-only layout revision."
+  ],
+  "figure_sha256": {
+    "expanded_llm_outcomes.pdf": "bde85d339b2ae90751e24041d70609ec1a7520222e327fe6e8adbaf3f52502df",
+    "expanded_llm_outcomes.png": "b8a2ef1b04c46e8186be611851dd1637a73b7179373f3e0d0fa071b244305c9f",
+    "expanded_llm_outcomes.svg": "2d85411c4f282654a4ee9921b0dd7fbf7226d8b146b077a775d73df4b38330d9",
+    "expanded_llm_factors.pdf": "89188a242b9a8b423342d577c932695a03150c1da850b36fb804ec42c870d749",
+    "expanded_llm_factors.png": "b2c9feeb80fbc3e47ca3dbfeac3ef582c9ebedcb46e617bcf9e6875e62d7bbc3",
+    "expanded_llm_factors.svg": "f2cd0640024275a2355fa331f130104b2a78c59307ae3a79a823c4e2f2ef20dd",
+    "expanded_llm_mechanism.pdf": "9f33d68e2678301414e69aadace6ff6ecbbc9db54b5a85cdfa5f3a991e5a97ca",
+    "expanded_llm_mechanism.png": "471cc8398dfeb35b49075e56f2dba1f0bd69ce1fd197d60da53a21cfea121701",
+    "expanded_llm_mechanism.svg": "31ab6c1d0c5fdad9631a11979a5888f88e69eb61321aa9fa394686b1d7a2f5d5",
+    "expanded_llm_cell_effects.pdf": "48f562fe77b7a075d30bc6173b08aac5d336201793002f22c08d7e0697cbf123",
+    "expanded_llm_cell_effects.png": "bb19c4f6f7696f8864657d5463dc19709e677d695018adadc386fecb62ffee13",
+    "expanded_llm_cell_effects.svg": "b8cb4208b3fb73befc0fbf5fd914881f982b8562b273d5a9a6bae49094be2482",
+    "expanded_llm_mechanism_full.pdf": "13a26eb1dfad2366e1ab81f6bcc978552c482e97606dcc23a2fbe482e5a44ad9",
+    "expanded_llm_mechanism_full.png": "7023af6faa99cacaac7ffd90f692cdf9d022b41e4b0f6523601f64f2b7933122",
+    "expanded_llm_mechanism_full.svg": "d8a76f942654aceec7d171ab4af0b3964e844d8b10aebdb3a01017a580c231d2"
+  },
+  "main_copies_equal": true
+}

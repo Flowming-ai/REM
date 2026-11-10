@@ -1,0 +1,21 @@
+predictor,label,n_cases,mae,rmse,fold
+counterfactual_cost,Paired constrained cost,11,0.0089740127071450699,0.021163465822656363,1
+soc_ols,Energy-deficit affine regression,11,0.80769944915181846,0.95748577104914456,1
+current_price,Deficit / efficiency × current price,11,0.21107244805536415,0.34185929708570134,1
+forecast_price,Deficit / efficiency × mean forecast price,11,0.55456210508502268,0.70678898023069714,1
+counterfactual_cost,Paired constrained cost,11,0.010583741989193146,0.025601998628149984,2
+soc_ols,Energy-deficit affine regression,11,0.77596884215664019,0.92911085443325458,2
+current_price,Deficit / efficiency × current price,11,0.092190206956805951,0.15350129188943626,2
+forecast_price,Deficit / efficiency × mean forecast price,11,0.52885583861441166,0.67703178110151874,2
+counterfactual_cost,Paired constrained cost,11,0.018313142218305056,0.037848780866582048,3
+soc_ols,Energy-deficit affine regression,11,0.55732526696502416,0.776197878685849,3
+current_price,Deficit / efficiency × current price,11,0.39577410996206941,0.76359424465466674,3
+forecast_price,Deficit / efficiency × mean forecast price,11,0.70921634922755172,0.82070985926012185,3
+counterfactual_cost,Paired constrained cost,11,0.014973230546902987,0.037555107916393438,4
+soc_ols,Energy-deficit affine regression,11,0.69742989420583146,0.77361243886997488,4
+current_price,Deficit / efficiency × current price,11,0.31080655736319973,0.59459678750816125,4
+forecast_price,Deficit / efficiency × mean forecast price,11,0.47341438545501069,0.58760947194578927,4
+counterfactual_cost,Paired constrained cost,11,0.0037125972916950815,0.010641838013812376,5
+soc_ols,Energy-deficit affine regression,11,0.49119463988971995,0.70391920847368095,5
+current_price,Deficit / efficiency × current price,11,0.19242052767417323,0.47264677250160042,5
+forecast_price,Deficit / efficiency × mean forecast price,11,0.48580783589217263,0.51761362218689877,5

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+experiments/llm_agent_validation/models/
+experiments/results/reproduced/
+experiments/results/quickcheck/

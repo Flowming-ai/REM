@@ -1,0 +1,4 @@
+baseline,reference,n_cases,mae_improvement_baseline_minus_reference,ci95_low,ci95_high,bootstrap_unit,bootstrap_draws
+soc_ols,counterfactual_cost,55,0.65461227352315865,0.52631216698581562,0.78912016801391616,scenario,20000
+current_price,counterfactual_cost,55,0.2291414250516742,0.12448823836896036,0.35770200789265411,scenario,20000
+forecast_price,counterfactual_cost,55,0.53905995790418559,0.44289263521314004,0.64450340112263627,scenario,20000
