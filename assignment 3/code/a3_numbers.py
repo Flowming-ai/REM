@@ -421,6 +421,10 @@ R["deadline"]["end_target_only_with_random_variation"] = [int(varied.sum()), len
 # Fig. 5: lowest and highest extra cost of the 5 kWh deficit where the attacked run can recover
 feasible = sweep[sweep.extra_cost.notna()]
 R["sweeps"]["grid_deadline_cost_range"] = [float(feasible.extra_cost.min()), float(feasible.extra_cost.max())]
+# test set by attack strength: mean energy deficit, and scenarios in which the attacked run cannot recover
+R["test"]["by_strength"] = [{"strength": float(a), "n": len(e), "gap_mean": float(e.soc_deficit_kwh.mean()),
+                             "attacked_cannot_recover": int((e.feasibility_class != "both_feasible").sum())}
+                            for a, e in ep.groupby("strength")]
 
 OUT.mkdir(parents=True, exist_ok=True)
 (OUT / "a3_numbers.json").write_text(json.dumps(R, indent=1, default=float) + "\n")

@@ -214,7 +214,27 @@
     0.7507407942308844,
     0.8576948861467139
    ]
-  }
+  },
+  "by_strength": [
+   {
+    "strength": 0.55,
+    "n": 167,
+    "gap_mean": 3.6545959544738387,
+    "attacked_cannot_recover": 14
+   },
+   {
+    "strength": 0.8,
+    "n": 167,
+    "gap_mean": 4.54315173130554,
+    "attacked_cannot_recover": 41
+   },
+   {
+    "strength": 0.95,
+    "n": 166,
+    "gap_mean": 4.624495354971019,
+    "attacked_cannot_recover": 48
+   }
+  ]
  },
  "methods": {
   "attribution_mpc": {
