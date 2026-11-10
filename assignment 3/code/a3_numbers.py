@@ -418,6 +418,9 @@ R["measured"]["fuller_no_purchase"] = [int((~bought).sum()), len(fuller_all)]   
 # test set: did the State MPC scenarios that missed only the end target have random variation in demand and solar output
 varied = mpc[end_only].merge(ep[["scenario_id", "noise_scale"]], on="scenario_id").noise_scale > 0
 R["deadline"]["end_target_only_with_random_variation"] = [int(varied.sum()), len(varied)]             # 56 of 56
+# Fig. 5: lowest and highest extra cost of the 5 kWh deficit where the attacked run can recover
+feasible = sweep[sweep.extra_cost.notna()]
+R["sweeps"]["grid_deadline_cost_range"] = [float(feasible.extra_cost.min()), float(feasible.extra_cost.max())]
 
 OUT.mkdir(parents=True, exist_ok=True)
 (OUT / "a3_numbers.json").write_text(json.dumps(R, indent=1, default=float) + "\n")

@@ -1,4 +1,4 @@
-"""Two stronger comparison estimates of the realised extra cost, added after the tests.
+"""Two further comparison estimates of the realised extra cost, added after the tests.
 
 cheapest hours: the energy deficit bought at the cheapest forecast prices, first before the deadline, at most at full
                 charging power in each step and never while the grid is disconnected;

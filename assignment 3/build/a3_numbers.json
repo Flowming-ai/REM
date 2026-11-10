@@ -680,7 +680,11 @@
    4.5,
    5.0
   ],
-  "upward_shifts": 40
+  "upward_shifts": 40,
+  "grid_deadline_cost_range": [
+   2.0466611105237247,
+   2.7400393251961264
+  ]
  },
  "network": {
   "snapshots": 3562,
